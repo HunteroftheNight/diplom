@@ -1,0 +1,28 @@
+#form {
+	background-color: #FFFACD;
+	border: 1px solid grey;
+	border-spacing: 50px;
+	margin-top:15px;
+	margin-left:250px;
+	margin-right:250px;
+	padding-bottom:20px;
+	padding-top:20px;
+	
+}
+label {
+	margin-left: 10px;
+	clear: both;
+	float: left;
+	padding-right:10px;
+	line-height:20px;
+	display:flex;
+}
+input {
+	margin-right:10px;
+	text-align: left;
+	float: right;
+	padding-left:10px;
+	line-height:20px;
+	
+}
+	

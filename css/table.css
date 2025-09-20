@@ -1,0 +1,35 @@
+﻿.tabless {
+	height: 230px;
+	text-align: justify;
+	position: relative;
+	border: 1px solid rgb(73, 4, 105);
+	border-radius: 7px;
+	margin-bottom: 5%;
+}
+
+
+.searchpolocka {
+	width: 150px !important;
+}
+
+ .tablbut2 {
+	position: absolute;
+	bottom: 8%;
+	width: 112px;
+	left: 68px;
+	right: 68px;
+}
+
+.tablbut2 a{
+	align-content: center;
+	width: 112px;
+}
+
+h5 {
+	text-align: justify;
+}
+
+.tabless:hover{
+	border: 1px solid blue;
+	border-radius: 7px;
+}

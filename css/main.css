@@ -1,0 +1,105 @@
+﻿*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: white;
+	color: black;
+	font: 1rem/1.3 'Tahoma', sans-serif;
+}
+h3
+{
+	margin: 1em 0 0;
+}
+.text-right
+{
+	text-align: right;
+}
+.wrapper
+{
+	background: #f1f1f1;
+	border-top: 5px solid #324566;
+	margin: 1.5em auto;
+	padding: 1.5em;
+	width: 100%;
+}
+.info p
+{
+	margin: .5em 0;
+}
+.list
+{
+	background: #ddd;
+	float: left;
+	padding: 1em;
+	width: 100%;
+}
+.list li
+{
+	background: white;
+	border-bottom: .125em solid #9c9c9c;
+	border-radius: 3px;
+	list-style: none;
+	margin: 0 0 .25em;
+	padding: .5em;
+	position: relative;
+}
+.list li:hover
+{
+	cursor: pointer;
+}
+.list li:hover:after
+{
+	color: #000;
+	content: "\f057";
+	font-family: 'FontAwesome', sans-serif;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+.list li.todo--is-done
+{
+	background: #cacaca;
+	color: #9c9c9c;
+	text-decoration: line-through;
+}
+.list li.todo--is-done:hover
+{
+	background: #e4e4e4;
+	border-bottom-color: 9c9c9c;
+}
+.list li.todo--is-done:hover:after
+{
+	content: "";
+}
+.list__header
+{
+	margin-bottom: .5em;
+}
+.list__header a
+{
+	text-decoration: none;
+}
+.btn
+{
+	background: #333;
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	padding: .25em .5em;
+}
+.btn:hover
+{
+	background: tint(#333, 5%);
+}
+.input
+{
+	border-radius: 3px;
+	display: block;
+	margin: 1em 0 0 0;
+	padding: .5em;
+	width: 100%;
+}

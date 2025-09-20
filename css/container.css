@@ -1,0 +1,33 @@
+.btn-danger {
+    background-color: blue;
+    border-color: gray;
+}
+.btn-danger:hover{
+    background-color: blue;
+    
+}
+.btn-success {
+    background-color: blue;
+    border-color: gray;
+}
+.btn-success:hover{
+    background-color: blue;
+    
+}
+div.jumbotron{
+    background: url(/2048x1422_940223_[www.ArtFile.ru].jpg);
+    box-align: center;
+       
+}
+h2,h4{
+    color:white;
+}
+h1{
+    color: white;
+}
+div.navbar-fixed-bottom.row-fluid {
+    margin-bottom: 10px;
+    margin-top: 120px;
+    background-color: white;
+}
+
